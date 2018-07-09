@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    justify-content: center;
+    font-weight: bold;
+}
+#title {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    font-size: 12px;
+    position: relative;
+    padding: 10px 0 15px 0;
+    background-color: black;
+    color: #f4f4f4;
+}
+
+
+
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.png);
+    background-size: 400px;
+    background-position: left;
+    
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+button	{
+	position: absolute;
+	top:40%;
+	align-self: center;
+	width: 20em;  height: 3em;
+    text-align: center;
+
+}
