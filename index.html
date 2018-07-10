@@ -9,14 +9,21 @@
 		<title>Stone Paper Sissors</title>
 	</head>
 	<body>
-		<main>
-			<header id="title">
-				<center><h1>Stone,Paper,Sissors</h1></center>
-			</header>
+		
 			
-
-			<button type="button" class="btn btn-primary">Select</button>
-			
+			<div class="wrapper clearfix">
+				<header id="title">
+					<h1>Stone,Paper,Sissors</h1>
+				</header>
+			 	<div class="player-0-panel active">
+                	<div class="player-name" id="name-0">Player 1</div>
+                	<div class="player-score" id="score-0">0</div>
+             	</div>
+             	<div class="player-1-panel">
+                	<div class="player-name" id="name-1">Computer</div>
+                	<div class="player-score" id="score-1">0</div>
+             	</div>
+				<button type="button" class="btn btn-primary">Select</button>
 					<div class="row">
   						<div class="column">
     						<img src="stone.png" style="width:100%">
@@ -34,7 +41,7 @@
 
 			
              
-		</main>
+			</div>
 		
 		<script src="app.js"></script>
 	</body>
